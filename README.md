@@ -79,9 +79,5 @@ Once the application is up and running, you can access it at `http://localhost:3
 
 
 
-## 📞 Contact
 
-For any inquiries or feedback, please reach out to [VEERA5603](https://github.com/VEERA5603).
-```
 
-Feel free to copy this content into your `README.md` file and adjust any sections as needed.
