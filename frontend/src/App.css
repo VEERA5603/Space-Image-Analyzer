@@ -152,3 +152,69 @@ footer {
   font-size: 14px;
   color: #94a3b8;
 }
+
+/* Add these styles to your existing App.css */
+
+.analysis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.analysis-content {
+  line-height: 1.6;
+}
+
+.analysis-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgba(30, 58, 138, 0.15);
+  border-left: 3px solid var(--secondary-color);
+  border-radius: 4px;
+}
+
+.analysis-section h4 {
+  color: var(--accent-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.analysis-paragraph {
+  margin-bottom: 15px;
+}
+
+/* Style improvements for better readability */
+.analysis p, .explanation p {
+  line-height: 1.7;
+}
+
+/* Add a subtle indicator for AI content */
+.analysis h3::after {
+  content: "AI";
+  font-size: 0.7rem;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* Enhance button styling */
+.toggle-analysis {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.toggle-analysis:hover {
+  background-color: var(--accent-color);
+  transform: translateY(-1px);
+}
